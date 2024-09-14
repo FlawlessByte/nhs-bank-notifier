@@ -1,0 +1,42 @@
+# Exclude the Dockerfile and .dockerignore file themselves
+Dockerfile
+.dockerignore
+
+# Exclude the bin directory where built binaries may be placed
+/bin
+
+# Exclude the build cache and temporary files
+*.log
+*.out
+*.exe
+
+# Exclude Go-specific files
+*.test
+*.prof
+*.bench
+*.trace
+*.cov
+*.cover
+*.tmp
+
+# Exclude directories that are not needed for the build
+.idea/
+.vscode/
+.env
+.git/
+.gitignore
+
+# Exclude dependencies cached locally, as they are downloaded in the Docker build process
+vendor/
+node_modules/
+
+# Exclude user-specific and OS-specific files
+*~
+*.swp
+*.swo
+*.bak
+*.old
+*.DS_Store
+Thumbs.db
+
+test/
