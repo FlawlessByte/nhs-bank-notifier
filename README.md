@@ -6,7 +6,7 @@ NHS Bank Notifier is an application designed to periodically check for available
 
 Below is an example of the Telegram bot's response:
 
-![Telegram Bot Response](assets/telegram-response.JPG)
+<img src="assets/telegram-response.JPG" width=50% height=50%>
 
 ## Features
 
