@@ -55,7 +55,7 @@ You can build and run the app using Docker:
 
 1. Build the Docker image:
     ```bash
-    docker build -t nhs-bank-notifier .
+    docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -f Dockerfile --tag realinventor/nhs-bank-notifier:1.0.0 --output type=docker .
     ```
 
 2. Run the Docker container:
