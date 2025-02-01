@@ -2,6 +2,12 @@
 
 NHS Bank Notifier is an application designed to periodically check for available NHS bank shifts, filter shifts for specific units, and send a notification through Telegram. It uses a TTL cache to avoid notifying about shifts that have already been handled.
 
+## Telegram Bot Response
+
+Below is an example of the Telegram bot's response:
+
+![Telegram Bot Response](assets/telegram-response.JPG)
+
 ## Features
 
 - Periodically checks for new shifts from the NHS API.
